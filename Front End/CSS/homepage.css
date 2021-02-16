@@ -1,0 +1,182 @@
+/*
+Colors scheme
+
+inside nav = #a7e0a5
+nav outline = #59c244
+header = #ebd190
+text = #262626
+button highlight = #9af08b
+login gray = #e2e2e2
+*/
+
+
+body
+{
+    margin: 0;
+    width: 100%;
+}
+
+.nav-box
+{
+    border-style: solid;
+    border-color: #59c244;
+    box-sizing: border-box;
+    height: 100%;
+    width: 17%;
+    background-color:#a7e0a5;
+    position: fixed;
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-dashboard
+{
+    width: 100%;
+    height: 4vh;
+    margin-top: 10vh;
+    margin-bottom: 11vh;
+    text-align: center;
+}
+
+.nav-dashboard-style
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.nav-dash-line
+{
+    width: 13vw;
+    height: 3px;
+    margin-top: 3.5vh;
+    background-color: #000;
+    border: none;
+}
+
+.nav-button
+{
+    background-color: #ffffff;
+    border: none;
+    border-radius: .7em ;
+    width: 13vw;
+    height: 5vh;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 2vh;
+    outline: none;
+}
+
+.nav-button-2
+{
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 4vh;
+}
+
+.nav-button:hover
+{
+    background-color: #9af08b;
+}
+
+
+
+
+
+
+
+/*
+Header
+Header
+Header
+Header
+Header
+*/
+
+p
+{
+    margin: 0;
+}
+
+
+.header
+{
+    width: 100%;
+    height: 25vh;
+    background-color: #ebd190;
+}
+
+.HB-space
+{
+    width: 83%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.header-name
+{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.header-name-style
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.header-logo
+{
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+
+.header-logo-styte
+{
+    width: 12vw;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+BODY 
+BODY
+BODY
+BODY
+BODY
+*/
+
+.body-content
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+body
+{
+    margin: 0;
+    width: 100%;
+    background-color: #a7e0a5;
+}
+
+p
+{
+    margin: 0;
+}
+
+.login-body
+{
+    filter: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.login-space
+{
+    width: 65vw;
+    height: 75vh;
+    border-radius: 1.2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 1px 3px 10px 6px #61995f;
+}
+
+.login-logo
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.login-logosize
+{
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-fillup
+{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.login-form
+{
+    width: 85%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.login-title
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    margin-bottom: 4.5vh;
+    margin-top: 5vh;
+}
+
+.login-formstyle
+{
+    display: block;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 85%;
+    height: 6.5vh;
+    border: none;
+    border-radius: .5em;
+    background-color: #e2e2e2;
+    font-size: 1.15vw;
+    outline: none;
+}
+
+.login-formstyle:focus
+{
+    box-shadow: 0 0 0 1px #59c244;
+}
+
+
+
+.login-submit
+{
+    display: block;
+    margin-bottom: 1.2vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 85%;
+    height: 6.5vh;
+    border-radius: .5em;
+    border-style: none;
+    background-color: #59c244;
+    font-style: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.1vw;
+    cursor: pointer;
+    outline: none;
+}
+
+.login-submit:hover
+{
+    background-color: #38792b;
+    color: #ffffff;
+}
+
+.login-bottom-text
+{
+    margin-bottom: 3vh;
+    font-size: .98vw;
+    font-family: 'Roboto', sans-serif;
+    color: #23be1e;
+    cursor: pointer;
+}
+
+.login-bottom-text:hover
+{
+    color: #145e11;
+}
+
+.login-divider
+{
+    margin-bottom: 3vh;
+    width: 85%;
+}
+
+.login-createacc
+{
+    margin-bottom: 1.2vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    height: 6.5vh;
+    border-radius: .5em;
+    border-style: none;
+    background-color: #f7ce67;
+    font-style: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: .9vw;
+    outline: none;
+    cursor: pointer;
+    color: #222222;
+}
+
+.login-createacc:hover
+{
+    background-color: #e2b13f;
+    color: #ffffff;
+}

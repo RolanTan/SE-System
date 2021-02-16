@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel = "stylesheet" href = "/Front End/CSS/login.css">
+    <link rel = "stylesheet" href = "/Front End/CSS/registration.css">
+    
+
+
+</head>
+
+<body>
+
+    <div class = "login-body">
+
+        <div class = "login-space">
+
+            <div class = "login-logo">
+    
+                <img class = "login-logosize" src = "/Front End/images/logo.png" alt = "R&R Logo">
+                
+            </div>
+    
+            <div class = "login-fillup">
+    
+                <div class = login-form>
+    
+                    <h1 class = "login-title">Member Login</h1>
+    
+                    <form>
+    
+                    <input class = "login-formstyle" type = "text" name = "username" id = "username" placeholder = "Username" required>
+    
+                    <input class = "login-formstyle" type = "password" id = "password" placeholder = "Password" required>
+                    
+                    <input class = "login-submit" type = "submit" value = "Login">
+    
+                    <p class = "login-bottom-text">Forgot Password?</p>
+    
+                    </form>
+    
+                    <hr class = "login-divider">
+    
+                    <div>
+                        
+                        <input class = "login-createacc" id = "createAcc"  type = "button" value = "Create New Account">
+        
+                    </div>
+    
+                </div>
+    
+            </div>
+            
+        </div>
+
+    </div>
+    
+
+
+    <div class = "bg-modal">
+
+        <div class = reg-form-container>
+
+            <div class="close" id = "close">
+                +
+            </div>
+
+            <div class = reg-center-cont>
+    
+                <div class = reg-header>
+    
+                    
+
+                    <div class = "logo">
+                        <img class = "reg-header-img" src = "/Front End/images/logo.png">
+                    </div>
+    
+                    <div class = "title-cont">
+                        <p class = "header-title">User Registration Form</p>
+                    </div>
+                
+    
+                </div>
+            
+                <div class = "reg-progress-bar">
+    
+    
+    
+                </div>
+    
+                <div class = "reg-form">
+    
+                    <form>
+    
+                        <div class = "form-cont">
+                            <div class = "form1">
+                                <input class = "form-style" type = "text" id = "fname" placeholder = "First Name" required>
+                            </div>
+    
+                            <div class = "form2">
+                                <input class = "form-style" type = "text" id = "lname" placeholder = "Last Name" required>
+                            </div>
+                        </div>
+    
+                        <div class = "form-cont">
+                            <input class = "form-style2" type = "text" id = "address" placeholder = "Address" required>
+                        </div>
+                    
+    
+                        <div class = "form-cont">
+                            <div class = "form1">
+                                <input class = "form-style" type = "email" id = "email" placeholder = "E-Mail" required>
+                            </div>
+                    
+                            <div class = "form2">
+                                <input class = "form-style" type = "text" id = "cnum" placeholder = "Contant Number" required>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class = "form-cont">
+                            <div class = "form1">
+                                <input class = "form-style" type = "text" id = "uname" placeholder = "Username" required>
+                            </div>
+                    
+                            <div class = "form2">
+                    
+                                <div class = "cbox1">
+                                    <input class = "form-cbox-style" type = "radio" id = "owner" name = "accounttype" placeholder = "Owner" required>
+                                    <label for = "owner" class = "radio-name">Owner</label>
+                                </div>
+                                
+                                <div class = "cbox2">
+                                    <input class = "form-cbox-style" type = "radio" id = "employee" name = "accounttype" placeholder = "Employee" required>
+                                    <label for = "employee"  class = "radio-name">Employee</label>
+                                </div>
+                                
+                    
+                            </div>
+                        </div>
+    
+    
+                        <div class = "form-cont">
+                            <input class = "form-style2" type = "text" id = "pword" placeholder = "Password" required>
+                        </div>
+                    
+                    
+                        <div class = "form-cont">
+                            <input class = "form-style2" type = "text" id = "repword" placeholder = "Re-type Password" required>
+                        </div>
+    
+    
+                        <input class = "create-acc-submit" type = "submit" value = "Create Account">
+        
+                    </form>
+    
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src = "/Front End/js/registration.js"></script>
+        
+</body>
+
+</html>
