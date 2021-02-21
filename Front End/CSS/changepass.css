@@ -1,0 +1,96 @@
+.content-container
+{
+    width: 90%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.changepass-parent-cont
+{
+    float: left;
+    width: 45%;
+    height: 25vh;
+    background-color: #a7e0a5;
+}
+
+.changepass-cont
+{
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.changepass-text
+{
+    width: 100%;
+}
+
+.text-form-cont
+{
+    width: 100%;
+    height: auto;
+    background-color: brown;
+}
+
+.text-cont
+{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.form-cont
+{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+.text-form
+{
+    width: 100%;
+    height: 5vh;
+}
+
+.text-style
+{
+    
+}
+
+.form-style
+{
+    
+}
+
+
+
+
+
+.accDets-parent-cont
+{
+    float:  right;
+    width: 45%;
+    height: 25vh;
+    background-color: #a7e0a5;
+}
+
+.accDets-cont
+{
+    position: relative;
+    width: 90%;
+    height: 50px;
+}
+
+.photo-cont
+{
+
+}
+
+.acc-dets
+{
+
+}
