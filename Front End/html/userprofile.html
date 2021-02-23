@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>User Profile</title>
+
+    <link rel = "stylesheet" href = "/Front End/CSS/navheader.css">
+    <link rel = "stylesheet" href = "/Front End/CSS/userprofile.css">
+
+</head>
+
+<body>
+
+    <!--Navigation Tab-->
+    <div class = "nav-box">
+
+        <div class = "nav-dashboard">
+
+            <h3 class = "nav-dashboard-style">Dashboard<hr class = "nav-dash-line"></h3><br><br>
+
+        </div>
+        
+        <button class = "nav-button">Homepage</button>
+        <button class = "nav-button">Orders</button>
+        <button class = "nav-button">Products</button>
+        <button class = "nav-button">Information</button>
+            
+        
+        
+        
+        <div class = "nav-button-2">
+
+            <button class = "nav-button">User Profile</button>
+            <button class = "nav-button">Logout</button>
+
+        </div>
+
+        
+
+    </div>
+
+    <div class = "HB-space">
+
+        <!--Header-->
+        <div class = header>
+
+            <div class = "header-name">
+
+                <p class= "header-name-style">MILKTEA SUPPLY BY R&R</p>
+
+            </div>
+
+            <div class = "header-logo">
+
+                <img class = "header-logo-styte" src = "/Front End/images/logo.png" alt = "R&R Logo">
+
+            </div>
+
+        </div>
+
+
+        <!--Body-->
+        <div class = "body-content">
+
+            <div class = "content-header">
+                <div class = "dp-container">
+                    <img class = "display-photo" src = "/Front End/images/rj.jpg">
+                </div>
+            </div>
+
+            <div class = "content-body">
+                <div class = "content-layer">
+                    <div class = "information-container1">
+                        <h2>INFORMATION</h2>
+                        <p>Name: Rolan Tan</p>
+                        <p>Age: 20</p>
+                        <p>Birthdate: July 18, 2000</p>
+
+                        <input type = "button" id = "infoEdit" value = "Edit">
+                    </div>
+
+                    <div class = "information-container2">
+                        <h2>Contact</h2>
+                        <p>Phone Number: 09694296669</p>
+                        <p>Email: rolanjose.tan.iics@ust.edu.ph</p>
+
+                        <input type = "button" id = "contactEdit" value = "Edit">
+                    </div>
+                </div>
+
+                <div class = "content-layer">
+                    <div class = "information-container1">
+                        <h2>Security</h2>
+                        <p>Change Password</p>
+
+                        <a href = "/Front End/html/changepass.html">
+                        <input type = "button" id = "passwordEdit" value = "Edit"></a>
+                    </div>
+
+                    <div class = "information-container2">
+                        <h2>Settings</h2>
+                        
+                        <input type = "checkbox" id = "alertHP"> Alert message on Homepage<br>
+                        <input type = "checkbox" id = "alertPQU"> Alert message on Product Quantity Page
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+</body>
+
+</html>

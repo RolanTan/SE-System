@@ -95,7 +95,7 @@ Header
 Header
 */
 
-p
+p, input
 {
     margin: 0;
 }
@@ -162,7 +162,6 @@ BODY
 {
     width: 100%;
     height: auto;
-    position: absolute;
 }
 
 
